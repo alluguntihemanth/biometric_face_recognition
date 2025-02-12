@@ -14,12 +14,11 @@ Designed for **real-time applications**, it is lightweight, efficient, and can b
 ---
 
 ## ✨ **Key Features**  
-- **Face Registration**: Capture and store user face images for training.  
-- **Model Training**: Train a face recognition model using LBPH.  
-- **Real-Time Recognition**: Identify faces from a live webcam feed.  
-- **Attendance Tracking**: Logs recognized users' names and timestamps.  
-- **Text-to-Speech**: Announces recognized users with an audio welcome.  
-
+*   ✔ Face Registration: Capture and store user face images.
+*   ✔ Model Training: Train a recognizer using stored images.
+*   ✔ Real-time Face Recognition: Identify users in real time.
+*   ✔ Attendance Logging: Automatically record recognized users.
+*   ✔ Text-to-Speech Feedback: Announces recognized users.
 ---
 
 ## ⚙️ **Tech Stack**  
@@ -60,94 +59,51 @@ biometric_face_recognition/       # Root directory
 
 ----------------
 
-🚀 Installation & Setup
-1️⃣ Prerequisites
-Ensure you have Python 3.8+ installed.
+  
+  
 
-Install dependencies:
 
-bash
-Copy
-Edit
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Install Dependencies</p>
+
+```
 pip install -r requirements.txt
-2️⃣ Run Face Registration
-bash
-Copy
-Edit
+```
+
+<p>2. Face Registration : Run the script to capture and store face images</p>
+
+```
 python src/face_registration.py
-This will capture 30 images per user for training.
-3️⃣ Train the Model
-bash
-Copy
-Edit
+```
+
+<p>3. Train the Model : Train the facial recognition model</p>
+
+```
 python src/train_model.py
-This will create face_model.yml and labels.txt for recognition.
-4️⃣ Run Face Recognition
-bash
-Copy
-Edit
-python src/face_recognition.py
-The system will recognize registered users and display their names.
-5️⃣ Run the Attendance System
-bash
-Copy
-Edit
+```
+
+<p>4. Run Face Recognition - Start real-time face recognition</p>
+
+<p>5. Attendance System - Launch the attendance logging system</p>
+
+```
 python src/attendance_system.py
-Recognized users will be logged in attendance.csv with timestamps.
-📸 Visual Demo
-Face Registration
-<p align="center"> <img src="https://github.com/user-attachments/assets/sample-registration.png" alt="Face Registration" width="400"/> </p>
-Real-Time Recognition
-<p align="center"> <img src="https://github.com/user-attachments/assets/sample-recognition.png" alt="Face Recognition" width="400"/> </p>
-Attendance Logging
-<p align="center"> <img src="https://github.com/user-attachments/assets/sample-attendance.png" alt="Attendance Log" width="400"/> </p>
-🔧 Configuration
-Modify the confidence threshold in face_recognition.py and attendance_system.py for accuracy tuning:
+```
 
-python
-Copy
-Edit
-if confidence < 70:  # Adjust this threshold
-🤝 Contributing
-We welcome contributions! 🚀
+  
+  
+<h2>💻 Built with</h2>
 
-Steps to Contribute:
-Fork this repository.
-Clone your forked repo:
-bash
-Copy
-Edit
-git clone https://github.com/your-username/biometric_face_recognition.git
-Create a feature branch:
-bash
-Copy
-Edit
-git checkout -b feature-name
-Commit your changes:
-bash
-Copy
-Edit
-git commit -m "Added new feature"
-Push the branch:
-bash
-Copy
-Edit
-git push origin feature-name
-Create a Pull Request on GitHub.
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+Technologies used in the project:
 
-📧 Contact
-For any queries, reach out to:
-Email: hemanthallugunti@gmail.com
-LinkedIn: Hemanth Reddy Allugunti
+*   Python - Core programming language
+*   OpenCV - Face detection & recognition
+*   NumPy - Image processing operations
+*   CSV - Attendance logging
+*   Pyttsx3 - Text-to-Speech announcements
 
-Enjoy using the Biometric Face Recognition System! 😊
+<h2>🛡️ License:</h2>
 
-vbnet
-Copy
-Edit
-
-This keeps **everything inside a single code block** as per your request. 🚀  
-
-Let me know if you need any **tweaks or additions**!
+This project is licensed under the MIT License
