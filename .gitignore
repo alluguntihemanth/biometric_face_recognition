@@ -1,0 +1,5 @@
+__pycache__/
+dataset/
+*.csv
+face_model.yml
+labels.txt
