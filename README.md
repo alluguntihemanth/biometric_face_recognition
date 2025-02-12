@@ -65,31 +65,31 @@ biometric_face_recognition/       # Root directory
 
 <p>1. Install Dependencies</p>
 
-```
+``` bash
 pip install -r requirements.txt
 ```
 
 <p>2. Face Registration : Run the script to capture and store face images</p>
 
-```
+``` bash
 python src/face_registration.py
 ```
 
 <p>3. Train the Model : Train the facial recognition model</p>
 
-```
+``` bash
 python src/train_model.py
 ```
 
 <p>4. Run Face Recognition - Start real-time face recognition</p>
 
-```
+``` bash
 python src/face_recognition.py
 ```
 
 <p>5. Attendance System - Launch the attendance logging system</p>
 
-```
+``` bash
 python src/attendance_system.py
 ```
 
