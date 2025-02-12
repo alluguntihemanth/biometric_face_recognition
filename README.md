@@ -1,7 +1,3 @@
-# biometric_face_recognition
-A Deep Learning model for advanced Face Recognition.
-
-
 # 🏆 **Biometric Face Recognition System**  
 
 <p align="center">
@@ -62,6 +58,7 @@ biometric_face_recognition/       # Root directory
 │
 │── requirements.txt                # Required Python libraries
 
+----------------
 
 🚀 Installation & Setup
 1️⃣ Prerequisites
