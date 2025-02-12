@@ -60,9 +60,6 @@ biometric_face_recognition/       # Root directory
 ----------------
 
   
-  
-
-
 
 <h2>🛠️ Installation Steps:</h2>
 
@@ -86,12 +83,27 @@ python src/train_model.py
 
 <p>4. Run Face Recognition - Start real-time face recognition</p>
 
+```
+python src/face_recognition.py
+```
+
 <p>5. Attendance System - Launch the attendance logging system</p>
 
 ```
 python src/attendance_system.py
 ```
 
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Python - Core programming language
+*   OpenCV - Face detection & recognition
+*   NumPy - Image processing operations
+*   CSV - Attendance logging
+*   Pyttsx3 - Text-to-Speech announcements
 
 <h2>🛡️ License:</h2>
 
