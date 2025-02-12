@@ -92,17 +92,6 @@ python src/train_model.py
 python src/attendance_system.py
 ```
 
-  
-  
-<h2>💻 Built with</h2>
-
-Technologies used in the project:
-
-*   Python - Core programming language
-*   OpenCV - Face detection & recognition
-*   NumPy - Image processing operations
-*   CSV - Attendance logging
-*   Pyttsx3 - Text-to-Speech announcements
 
 <h2>🛡️ License:</h2>
 
