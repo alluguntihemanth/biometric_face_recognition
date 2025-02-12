@@ -63,7 +63,8 @@ biometric_face_recognition/       # Root directory
 
 <h2>🛠️ Installation Steps:</h2>
 
-<p>1. Install Dependencies</p>
+**1. Install Dependencies**
+
 
 ``` bash
 pip install -r requirements.txt
